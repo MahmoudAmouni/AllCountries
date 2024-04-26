@@ -1,0 +1,173 @@
+/* App.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .topics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+  }
+  .topics p{
+    margin-left:200px
+  }
+  
+  /* Quiz container */
+  .quiz-container {
+    max-width: 700px; /* Increase the width for a bigger card */
+    width: 100%;
+    padding: 30px; /* Increase padding */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    justify-content: center;
+    margin-top: 110px;
+  }
+  
+  /* Header */
+  .quiz-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  /* Quiz question */
+  .quiz-question h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #444;
+  }
+  
+  /* Answers list */
+  .answers-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  /* Answer buttons */
+  .answers-list li {
+    width: 100%; /* Make buttons full width */
+    padding: 12px 18px; /* Increase button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .answers-list button {
+    width: 100%; /* Make buttons full width */
+    padding: 12px 18px; /* Increase button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .answers-list li:hover {
+    background-color: #0056b3;
+  }
+
+  
+  /* Feedback messages */
+  .feedback {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+  .feedback.correct {
+    color: #2c662d;
+    background-color: #d4edda;
+
+  }
+  .feedback.correct:hover{
+    background-color: #d4edda
+  }
+  
+  .feedback.incorrect {
+    color: #721c24;
+    background-color: #f8d7da;
+  }
+  .feedback.incorrect:hover{
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  .quiz-container .correct{
+    background-color: #d4edda;
+
+  }
+  .quiz-container.incorrect{
+    background-color: #f8d7da;
+
+  }
+
+  .button{
+    width: 100%; /* Make buttons full width */
+    padding: 12px 18px; /* Increase button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #043971;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button2{
+    width: 100%; /* Make buttons full width */
+    padding: 12px 18px; /* Increase button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .bac{
+    position: relative;
+    right: -285px;
+    padding: 12px 18px; /* Increase button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #004288;
+    color: white;
+    cursor: pointer;
+    
+  }
+  .retry{
+    position: relative;
+    padding: 12px 18px; /* Increase button padding */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+   
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
