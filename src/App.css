@@ -130,7 +130,6 @@ header {
 
   }
   
-  /* Style for the ul */
 /* Style for the ul */
 ul {
     display: flex;
@@ -141,8 +140,8 @@ ul {
   
   /* Style for each li */
   li {
-    flex-basis: 16.666%; /* 6 items per row */
-    margin: 5px; /* Adjust spacing between items */
+    flex-basis: 16.666%; 
+    margin: 5px; 
   }
   
   .stick {
